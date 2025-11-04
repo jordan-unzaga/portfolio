@@ -54,13 +54,12 @@
     flex-wrap: wrap;
 }
 
-/* === Featured projects === */
-/* make it fit with your page-wrapper */
+
 .featured {
-    background: none;        /* remove white background */
-    box-shadow: none;        /* remove outer shadow */
-    border-radius: 0;        /* no rounded corners */
-    padding: 0;              /* rely on .page-wrapper spacing */
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
 }
 
 .featured h2 {

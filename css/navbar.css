@@ -13,7 +13,6 @@ body {
     z-index: 1000;
 }
 
-/* Flex container for nav items */
 .navbar ul {
     display: flex;
     align-items: center;
@@ -24,7 +23,6 @@ body {
     padding: 0.8rem 2rem;
 }
 
-/* Base link styles */
 .navbar ul li a {
     display: block;
     color: #111;
@@ -36,7 +34,6 @@ body {
     transition: background-color 0.2s, color 0.2s;
 }
 
-/* Hover effect */
 .navbar ul li a:hover {
     background-color: #f4f4f4;
     color: #006fff;
@@ -48,12 +45,10 @@ body {
 }
 
 
-/* Donate button placement */
 .navbar ul .donate {
-    margin-left: auto; /* pushes donate to right */
+    margin-left: auto;
 }
 
-/* Donate button style */
 .navbar ul .donate a {
     background-color: #6dadff;
     color: white;

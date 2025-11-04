@@ -9,6 +9,22 @@
     padding-bottom: .2rem;
 }
 
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    margin-top: 1rem;
+}
+
+.skills-list span {
+    background: #6dadff;
+    color: #fff;
+    padding: .4rem .8rem;
+    border-radius: 8px;
+    font-size: .95rem;
+    font-weight: 500;
+}
+
 .pixel-art {
     margin-top: 3rem;
     text-align: center;

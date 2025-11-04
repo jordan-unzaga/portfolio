@@ -1,11 +1,9 @@
-/* General page setup */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #f4f4f4;
 }
 
-/* Shared card/wrapper layout */
 .page-wrapper {
     max-width: 900px;
     margin: 4rem auto;
@@ -15,7 +13,6 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, .05);
 }
 
-/* Shared headings */
 h1 {
     margin-top: 0;
     margin-bottom: .5rem;
@@ -27,7 +24,6 @@ p {
     font-size: 1.05rem;
 }
 
-/* Shared section formatting */
 .section {
     margin-top: 2rem;
 }
@@ -40,7 +36,6 @@ p {
     margin-bottom: .8rem;
 }
 
-/* Shared list styling */
 ul {
     margin: .4rem 0 0 1.2rem;
     padding: 0;
@@ -50,7 +45,6 @@ ul li {
     margin-bottom: .3rem;
 }
 
-/* Shared buttons */
 .btn {
     display: inline-block;
     background: #111;
@@ -73,19 +67,4 @@ ul li {
     border: 1px solid #111;
 }
 
-/* Skills tag styles (used in About) */
-.skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .75rem;
-    margin-top: 1rem;
-}
 
-.skills-list span {
-    background: #6dadff;
-    color: #fff;
-    padding: .4rem .8rem;
-    border-radius: 8px;
-    font-size: .95rem;
-    font-weight: 500;
-}
